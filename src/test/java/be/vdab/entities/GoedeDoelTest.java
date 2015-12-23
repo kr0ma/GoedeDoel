@@ -43,4 +43,10 @@ public class GoedeDoelTest {
 	public void goedDoelVerschiltVanEenObjectMetEenAnderType() {
 		assertNotEquals(doel, new Date());
 	}
+	
+	@Test
+	public void hashCodeTest(){
+		assertNotEquals(new GoedeDoel("test").hashCode(), doel.hashCode());
+	}
+	
 }
