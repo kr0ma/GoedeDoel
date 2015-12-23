@@ -46,7 +46,7 @@ public class GoedeDoelTest {
 	
 	@Test
 	public void hashCodeTest(){
-		assertNotEquals(new GoedeDoel("test").hashCode(), doel.hashCode());
+		assertNotEquals(new GoedeDoel("test").hashCode(), doel);
 	}
 	
 }
